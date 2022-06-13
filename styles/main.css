@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+}
+
+.timecheck {
+    background-color: #00008B;
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+}
+
+.timecheck2 {
+    font-size: 30px;
+    color: rgb(255, 0, 128);
+    background-color: #00008B;
+    width: 50%;
+    height: 100px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.timecheck_header{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+}
+
+.timecheck_header > h1 {
+    color: rgb(255, 0, 128);
+    text-align: center;
+}
+
+.timecheck_input {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.timecheck_button {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;    
+}
+
+.timecheck_button_button {
+    height: 58px;
+    width: 280px;
+    margin-top: 40px;
+    border-radius: 100px;
+    border-color:#9247e1;
+    color: white;
+    border-style: solid;
+    border-width: 3px;
+    background: none;
+    cursor: pointer;
+}
